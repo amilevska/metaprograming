@@ -1,0 +1,73 @@
+# 0 - false; 1 - true.
+# Section to configure formatting options for Js files.
+
+
+
+
+# Specify the number of spaces that fits in a tab.
+tab-size:4
+
+# The number of spaces/tabs to be inserted for each indent level.
+indent-size: 4
+
+# The number of spaces/tabs to be inserted between the elements 
+# of an array, in expressions, method declarations, and method calls
+continuation-indent:4
+
+# if 0, formatter retains indents on empty lines as if they contained some code. 
+# if 1, formatter deletes the tab characters and spaces on empty lines.
+keep-indents-on-empty-line:0 
+
+# spaces-before- while/for/if/else
+spaces-before-while: 1
+spaces-before-for: 1
+spaces-before-if: 1
+spaces-before-else: 1
+
+# spaces-around- == = + *
+spaces-around-assign: 0
+spaces-around-equal: 0
+spaces-around-add: 1
+spaces-around-multiplicate: 1
+
+# This will add a space before single line comment, if it takes starts not at the beginning of the line
+spaces-before-line-comment-after-code: 1
+
+# braces-placement- will place brace after class/method/other
+# end-of-line: '{' will be on the same line as class or method definition or other statement with '{'
+# new-line: '{' will be on next line, with same indent
+# new-line-shifted: '{' will be on next line, with increased indent by 1 level
+braces-placement-class: end-of-line
+braces-placement-method: end-of-line
+braces-placement-other: end-of-line
+
+# keyword-on-new-line-* will put corresponding keyword on new line in code like this: '} keyword'
+# e.g. '} else' -> '}\nelse'
+keyword-on-new-line-else: 0
+keyword-on-new-line-while: 1
+
+# wrap-keyword-* will place corresponding keyword in class/method declaration on new line
+wrap-keyword-extends: 0
+wrap-keyword-implements: 0
+wrap-keyword-throws: 0
+
+# wrap-keyword-* will place extends/implements/throws list 1 item per line
+# e.g. in 'class S implements A, B, C' A, B and C will not be in the same line
+wrap-list-extends: 0
+wrap-list-implements: 0
+wrap-list-throws: 0
+
+# Specify the number of extra blank lines to be kept after reformatting
+# if max < min, min is preferred. Use negative values to disable.
+keep-max-blank-lines: 2
+
+# configure whether to have or not to have extra empty lines before 
+# blocks of import statements and around fields, methods, or functions
+blank-lines-min-before-package: 0
+blank-lines-min-before-imports: 1
+blank-lines-min-before-class-definition: 0
+
+# configure whether to have or not to have extra empty lines after the 
+# blocks of import statements and around fields, methods, or functions
+blank-lines-min-after-package: 1
+blank-lines-min-after-imports: 1
