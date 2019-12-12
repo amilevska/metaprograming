@@ -35,8 +35,7 @@ spaces-before-line-comment-after-code: 1
 
 # braces-placement- will place brace after class/method/other
 # end-of-line: '{' will be on the same line as class or method definition or other statement with '{'
-# new-line: '{' will be on next line, with same indent
-# new-line-shifted: '{' will be on next line, with increased indent by 1 level
+new-line: '{' will be on next line, with same indent
 braces-placement-class: end-of-line
 braces-placement-method: end-of-line
 braces-placement-other: end-of-line
